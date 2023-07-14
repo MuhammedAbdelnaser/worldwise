@@ -37,28 +37,398 @@
       "id": 98443197
     },
     {
-      "cityName": "Dortmund",
+      "cityName": "New York City",
+      "country": "United States",
+      "emoji": "🇺🇸",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "The city that never sleeps!",
+      "position": {
+      "lat": 40.7128,
+      "lng": -74.0060
+      },
+      "id": 73930386
+      },
+      {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "The city of love and lights!",
+      "position": {
+      "lat": 48.8566,
+      "lng": 2.3522
+      },
+      "id": 73930387
+      },
+      {
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A bustling metropolis with rich culture.",
+      "position": {
+      "lat": 35.6895,
+      "lng": 139.6917
+      },
+      "id": 73930388
+      },
+      {
+      "cityName": "Sydney",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Beautiful beaches and iconic landmarks.",
+      "position": {
+      "lat": -33.8651,
+      "lng": 151.2099
+      },
+      "id": 73930389
+      },
+      {
+      "cityName": "Rome",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city with ancient history and magnificent architecture.",
+      "position": {
+      "lat": 41.9028,
+      "lng": 12.4964
+      },
+      "id": 73930390
+      },
+      {
+      "cityName": "Rio de Janeiro",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Vibrant city known for its carnival and stunning landscapes.",
+      "position": {
+      "lat": -22.9068,
+      "lng": -43.1729
+      },
+      "id": 73930391
+      },
+      {
+      "cityName": "Cape Town",
+      "country": "South Africa",
+      "emoji": "🇿🇦",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city where mountains meet the ocean.",
+      "position": {
+      "lat": -33.9249,
+      "lng": 18.4241
+      },
+      "id": 73930392
+      },
+      {
+      "cityName": "Moscow",
+      "country": "Russia",
+      "emoji": "🇷🇺",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Rich in history and iconic landmarks like the Red Square.",
+      "position": {
+      "lat": 55.7512,
+      "lng": 37.6184
+      },
+      "id": 73930393
+      },
+      {
+      "cityName": "Dubai",
+      "country": "United Arab Emirates",
+      "emoji": "🇦🇪",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A modern city with impressive skyscrapers and luxury shopping.",
+      "position": {
+      "lat": 25.2048,
+      "lng": 55.2708
+      },
+      "id": 73930394
+      },
+      {
+      "cityName": "Buenos Aires",
+      "country": "Argentina",
+      "emoji": "🇦🇷",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Known for tango, vibrant culture, and delicious steak.",
+      "position": {
+      "lat": -34.6037,
+      "lng": -58.3816
+      },
+      "id": 73930395
+      },
+      {
+      "cityName": "Shanghai",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A global financial hub with impressive modern architecture.",
+      "position": {
+      "lat": 31.2304,
+      "lng": 121.4737
+      },
+      "id": 73930396
+      },
+      {
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Home to ancient wonders like the Pyramids of Giza.",
+      "position": {
+      "lat": 30.0444,
+      "lng": 31.2357
+      },
+      "id": 73930397
+      },
+      {
+      "cityName": "Vancouver",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Surrounded by stunning natural beauty and a vibrant city life.",
+      "position": {
+      "lat": 49.2827,
+      "lng": -123.1207
+      },
+      "id": 73930398
+      },
+      {
+      "cityName": "Mumbai",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A bustling city with a blend of tradition and modernity.",
+      "position": {
+      "lat": 19.0760,
+      "lng": 72.8777
+      },
+      "id": 73930399
+      },
+      {
+      "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city with a rich history and vibrant art scene.",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+      "lat": 52.5200,
+      "lng": 13.4050
       },
-      "id": 94543197
-    },
-    {
-      "cityName": "Munich",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": 73930400
+      },
+      {
+      "cityName": "London",
+      "country": "United Kingdom",
+      "emoji": "🇬🇧",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Iconic landmarks and a diverse cultural scene.",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+      "lat": 51.5074,
+      "lng": -0.1278
       },
-      "id": 24443197
-    }
+      "id": 73930401
+      },
+      {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A vibrant city known for its lively atmosphere and tapas.",
+      "position": {
+      "lat": 40.4168,
+      "lng": -3.7038
+      },
+      "id": 73930402
+      },
+      {
+      "cityName": "Istanbul",
+      "country": "Turkey",
+      "emoji": "🇹🇷",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city that straddles Europe and Asia with rich history.",
+      "position": {
+      "lat": 41.0082,
+      "lng": 28.9784
+      },
+      "id": 73930403
+      },
+      {
+      "cityName": "Bangkok",
+      "country": "Thailand",
+      "emoji": "🇹🇭",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A bustling city with vibrant street life and ornate temples.",
+      "position": {
+      "lat": 13.7563,
+      "lng": 100.5018
+      },
+      "id": 73930404
+      },
+      {
+      "cityName": "Lima",
+      "country": "Peru",
+      "emoji": "🇵🇪",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city rich in history and famous for its gastronomy.",
+      "position": {
+      "lat": -12.0464,
+      "lng": -77.0428
+      },
+      "id": 73930405
+      },
+      {
+      "cityName": "Athens",
+      "country": "Greece",
+      "emoji": "🇬🇷",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "The birthplace of democracy and home to ancient ruins.",
+      "position": {
+      "lat": 37.9838,
+      "lng": 23.7275
+      },
+      "id": 73930406
+      },
+      {
+      "cityName": "Stockholm",
+      "country": "Sweden",
+      "emoji": "🇸🇪",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city built on islands with a vibrant cultural scene.",
+      "position": {
+      "lat": 59.3293,
+      "lng": 18.0686
+      },
+      "id": 73930407
+      },
+      {
+      "cityName": "Seoul",
+      "country": "South Korea",
+      "emoji": "🇰🇷",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A modern metropolis blending traditional and futuristic elements.",
+      "position": {
+      "lat": 37.5665,
+      "lng": 126.9780
+      },
+      "id": 73930408
+      },
+      {
+      "cityName": "Copenhagen",
+      "country": "Denmark",
+      "emoji": "🇩🇰",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city known for its design, cycling culture, and hygge.",
+      "position": {
+      "lat": 55.6761,
+      "lng": 12.5683
+      },
+      "id": 73930409
+      },
+      {
+      "cityName": "Dublin",
+      "country": "Ireland",
+      "emoji": "🇮🇪",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A lively city with a rich literary history and friendly locals.",
+      "position": {
+      "lat": 53.3498,
+      "lng": -6.2603
+      },
+      "id": 73930410
+      },
+      {
+      "cityName": "Edinburgh",
+      "country": "United Kingdom",
+      "emoji": "🇬🇧",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city known for its stunning castle and annual festivals.",
+      "position": {
+      "lat": 55.9533,
+      "lng": -3.1883
+      },
+      "id": 73930411
+      },
+      {
+      "cityName": "Vienna",
+      "country": "Austria",
+      "emoji": "🇦🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city with imperial palaces and a rich musical heritage.",
+      "position": {
+      "lat": 48.2082,
+      "lng": 16.3738
+      },
+      "id": 73930412
+      },
+      {
+      "cityName": "Havana",
+      "country": "Cuba",
+      "emoji": "🇨🇺",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city frozen in time with colorful architecture and vintage cars.",
+      "position": {
+      "lat": 23.1136,
+      "lng": -82.3666
+      },
+      "id": 73930413
+      },
+      {
+      "cityName": "Mexico City",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A sprawling city with rich history and vibrant culture.",
+      "position": {
+      "lat": 19.4326,
+      "lng": -99.1332
+      },
+      "id": 73930414
+      },
+      {
+      "cityName": "Amsterdam",
+      "country": "Netherlands",
+      "emoji": "🇳🇱",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city known for its picturesque canals and vibrant nightlife.",
+      "position": {
+      "lat": 52.3702,
+      "lng": 4.8952
+      },
+      "id": 73930415
+      },
+      {
+      "cityName": "Zurich",
+      "country": "Switzerland",
+      "emoji": "🇨🇭",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city with pristine lakes, stunning mountains, and Swiss precision.",
+      "position": {
+      "lat": 47.3769,
+      "lng": 8.5417
+      },
+      "id": 73930416
+      },
+      {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+      "lat": 38.7279,
+      "lng": -9.1409
+      },
+      "id": 73930417
+      },
+      {
+      "cityName": "Marrakech",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "A city with vibrant markets, stunning palaces, and riads.",
+      "position": {
+      "lat": 31.6295,
+      "lng": -7.9811
+      }}
   ]
 }
