@@ -35,42 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
-    },
-    {
-      "cityName": "New York City",
-      "country": "United States",
-      "emoji": "🇺🇸",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "The city that never sleeps!",
-      "position": {
-      "lat": 40.7128,
-      "lng": -74.0060
-      },
-      "id": 73930386
-      },
-      {
-      "cityName": "Paris",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "The city of love and lights!",
-      "position": {
-      "lat": 48.8566,
-      "lng": 2.3522
-      },
-      "id": 73930387
-      },
-      {
-      "cityName": "Tokyo",
-      "country": "Japan",
-      "emoji": "🇯🇵",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "A bustling metropolis with rich culture.",
-      "position": {
-      "lat": 35.6895,
-      "lng": 139.6917
-      },
-      "id": 73930388
-      }
+    }
   ]
 }
