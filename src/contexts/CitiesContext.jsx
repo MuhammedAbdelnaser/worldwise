@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useReducer, useState } from "react";
+import { createContext, useContext, useEffect, useReducer } from "react";
 
 const URL = "https://my-json-server.typicode.com/MuhammedAbdelnaser/worldwise";
 
@@ -33,13 +33,15 @@ function reducer(state, action) {
             return {
                 ...state,
                 isLoading: false,
-                cities: [...state.cities, action.payload]
+                cities: [...state.cities, action.payload],
+                currentCity: action.payload
             }
         case 'city/deleted':
             return {
                 ...state,
                 isLoading: false,
-                cities: state.cities.filter((city) => city.id !== action.payload)
+                cities: state.cities.filter((city) => city.id !== action.payload),
+                currentCity: {},
             }
         case 'rejected':
             return {
@@ -53,7 +55,7 @@ function reducer(state, action) {
 }
 function CitiesProvider({ children }) {
 
-    const [{ cities, isLoading, currentCity }, dispatch] = useReducer(reducer, initialState)
+    const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(reducer, initialState)
 
     // const [cities, setCities] = useState([]);
     // const [isLoading, setIsLoading] = useState(false);
@@ -74,6 +76,9 @@ function CitiesProvider({ children }) {
     }, []);
 
     async function getCity(id) {
+
+        if (Number(id) === currentCity.id) return;
+
         dispatch({ type: "loading" })
         try {
             const res = await fetch(`${URL}/cities/${id}`);
@@ -120,6 +125,7 @@ function CitiesProvider({ children }) {
             currentCity,
             getCity,
             createCity,
+            error,
             deleteCity
         }}>
             {children}
