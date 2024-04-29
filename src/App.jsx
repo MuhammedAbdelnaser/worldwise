@@ -15,7 +15,7 @@ import { AuthProvider } from "./contexts/FakeAuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
 function App() {
-
+  console.log("this is edit")
   return (
     <div>
       <AuthProvider>
